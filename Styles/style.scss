@@ -5,10 +5,16 @@
 $primary: #4f12d1;
 $secondary: #f9f9f2;
 
-$font-family-sans-serif: "Inter", sans-serif;
+$font-primary: "Inter", sans-serif;
 
+$light: #ffffff;
+$info: #5f2dcf;
+$navbar-nav-link-padding-x: 1rem;
+$navbar-padding-y: 0.9rem;
+
+body,
 html {
-  font-family: $font-family-sans-serif;
+  font-family: $font-primary;
 }
 
 .nav-link {
@@ -20,33 +26,40 @@ html {
   }
 }
 
+.nav-cta {
+    font-weight: 500;
+    background-color: $primary;
+    color: white;
 
-.view-example-cta {
-  color: $primary;
-  
-  &:hover {
-    color: #000;
-  }
+    &:hover {
+        color: $primary;
+        background: white;
+    }
 }
 
-.nav-cta {
-  font-weight: 500;
-  background-color: $primary;
-  border: none;
+.view-example-cta {
   color: white;
 
   &:hover {
-      color: white;
+    color: $primary;
+    background-color: white;
+    border: 1px black;
+    border-radius: 1rem;
   }
+
+}
+
+.why-section {
+  min-height: 100vh;
 }
 
 @media only screen and (max-width: 768px) {
   .hero-cta {
-    width: 100% ;
-    padding-left: 0.7rem ;
-    padding-right: 0.7rem ;
+    width: 100%;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
     a {
-      width: 100% ;
+      width: 100%;
     }
   }
 }

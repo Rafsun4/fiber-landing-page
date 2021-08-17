@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+body,
 html {
   font-family: "Inter", sans-serif;
 }
@@ -12,23 +13,30 @@ html {
   color: #4f12d1;
 }
 
-.view-example-cta {
-  color: #4f12d1;
-}
-
-.view-example-cta:hover {
-  color: #000;
-}
-
 .nav-cta {
   font-weight: 500;
   background-color: #4f12d1;
-  border: none;
   color: white;
 }
 
 .nav-cta:hover {
+  color: #4f12d1;
+  background: white;
+}
+
+.view-example-cta {
   color: white;
+}
+
+.view-example-cta:hover {
+  color: #4f12d1;
+  background-color: white;
+  border: 1px black;
+  border-radius: 1rem;
+}
+
+.why-section {
+  min-height: 100vh;
 }
 
 @media only screen and (max-width: 768px) {
