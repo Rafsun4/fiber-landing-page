@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #4f12d1;
+}
+
+.view-example-cta {
+  color: #4f12d1;
+}
+
+.view-example-cta:hover {
+  color: #000;
+}
+
+.nav-cta {
+  font-weight: 500;
+  background-color: #4f12d1;
+  border: none;
+  color: white;
+}
+
+.nav-cta:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-cta {
+    width: 100%;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+  .hero-cta a {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
