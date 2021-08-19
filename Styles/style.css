@@ -41,6 +41,23 @@ html {
   border-radius: 10px;
 }
 
+.card-title {
+  color: #4f12d1;
+}
+
+.testimonial-btn {
+  color: #4f12d1;
+}
+
+.testimonial-btn:hover {
+  background: #4f12d1;
+  color: #ffffff;
+}
+
+footer li a:hover {
+  color: #4f12d1;
+}
+
 @media only screen and (max-width: 768px) {
   .hero-cta {
     width: 100%;

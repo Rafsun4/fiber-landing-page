@@ -4,13 +4,10 @@
 // Variables
 $primary: #4f12d1;
 $secondary: #f9f9f2;
-
-$font-primary: "Inter", sans-serif;
-
 $light: #ffffff;
 $info: #5f2dcf;
-$navbar-nav-link-padding-x: 1rem;
-$navbar-padding-y: 0.9rem;
+
+$font-primary: "Inter", sans-serif;
 
 body,
 html {
@@ -53,6 +50,27 @@ html {
 
 .portfolio {
   border-radius: 10px;
+}
+
+.card-title {
+  color: $primary;
+}
+
+.testimonial-btn {
+  color: $primary;
+
+  &:hover {
+    background: $primary;
+    color: $light;
+  }
+}
+
+footer {
+  li a {
+    &:hover {
+      color: $primary;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
