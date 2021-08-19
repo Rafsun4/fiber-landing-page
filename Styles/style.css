@@ -33,8 +33,14 @@ html {
 .dvs-cta {
   font-weight: 500;
   background-color: white;
-  color: #4f12d1 !important;
+  color: #4f12d1;
   border-radius: 5px;
+}
+
+.dvs-cta:hover {
+  color: white;
+  background-color: #4f12d1;
+  border: 1px solid white;
 }
 
 .portfolio {
