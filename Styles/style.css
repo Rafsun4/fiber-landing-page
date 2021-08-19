@@ -45,6 +45,10 @@ html {
   color: #4f12d1;
 }
 
+.card-footer {
+  background-color: white;
+}
+
 .testimonial-btn {
   color: #4f12d1;
 }
